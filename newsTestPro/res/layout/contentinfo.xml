@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parant_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.viewpager.NoScrollViewPager
+        android:id="@+id/noScrollViewPager1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </com.example.viewpager.NoScrollViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C9D7F2"
+        android:orientation="horizontal"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/radio_h1"
+            style="@style/Pub_TabStyle"
+            android:text="市场" />
+
+        <TextView
+            android:id="@+id/radio_h2"
+            style="@style/Pub_TabStyle"
+            android:text="分类" />
+
+        <TextView
+            android:id="@+id/radio_h3"
+            style="@style/Pub_TabStyle"
+            android:text="发布" />
+
+        <TextView
+            android:id="@+id/radio_h4"
+            style="@style/Pub_TabStyle"
+            android:text="我的" />
+    </LinearLayout>
+
+</LinearLayout>

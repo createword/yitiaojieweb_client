@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parant_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/parant_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99CCF8"
+        android:padding="10dp" >
+
+        <ImageButton
+            android:id="@+id/caidan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:src="@drawable/img_menu" />
+
+        <TextView
+            android:id="@+id/id_biaoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="标题"
+            android:textColor="#F0F0F0"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="选择"
+            android:textColor="#F0F0F0"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/base_pager_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" />
+
+</LinearLayout>
